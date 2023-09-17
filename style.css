@@ -195,7 +195,7 @@ P.text-blue{
     font-weight: bold;
     font-size: 30px;
     position: relative;
-    bottom: 470px;
+    bottom: 400px;
     left: 200px;
 }
 span.tm{
@@ -210,7 +210,7 @@ span.tm{
     color: var(--color1);
     font-size: 10x;
     position: relative;
-    bottom: 450px;
+    bottom: 380px;
     left: 200px;
     font-family: cursive;
 }
@@ -218,7 +218,7 @@ span.tm{
     color: var(--color1);
     font-size: 10x;
     position: relative;
-    bottom: 435px;
+    bottom: 360px;
     left: 200px;
     font-weight: bold;
     background-color: var(--color5);
