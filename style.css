@@ -1,0 +1,262 @@
+:root{
+    --color1:#25384F;
+    --color2: #fff;
+    --color3: #85c3e9;
+    --color4: #000;
+    --color5: #CEDD3E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* debut header */
+
+/* premiere section en bleu */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    height: 50px;
+}
+.top-blue{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px; 
+}
+.explorer{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: -15px; 
+    border-right: 2px solid var(--color3); 
+    padding: 15px; 
+    cursor: pointer;
+
+}
+
+.rien{
+    border: 2px solid var(--color3);
+    width: 170px;
+    height: 0px;
+    position: relative;
+    top: -12px;
+    left: 205px;
+}
+.apprendre{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    border-right: 2px solid var(--color3);  
+    padding: 15px; 
+    cursor: pointer;
+}
+.inspirer{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    border-right: 2px solid var(--color3); 
+    padding: 15px; 
+    cursor: pointer; 
+}
+
+.aide{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.connexion{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+
+}
+.connexion .active{
+    background-color: var(--color3);
+    opacity: 0.9;
+    padding: 5px 5px;
+    border: none;
+    color: var(--color1);
+    padding: 17px;
+
+}
+.essai{
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+  
+
+}
+
+.essai .active{
+    background-color: var(--color5);
+    padding: 5px 5px;
+    border: none;
+    color: var(--color1);
+
+}
+
+p{
+    font-weight: bold;
+    font-size: 12px;
+    color: var(--color3);
+}
+.icone-recherche{
+    color: var(--color3);
+    display: flex;
+    text-align: center;
+    letter-spacing: 10px;
+    position: relative;
+    right: -100px;
+    padding: 15px;
+}
+
+/* fin premiere section en bleu */
+
+/* deuxieme section en blanc */
+
+.section{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+}
+
+.menu{
+    margin: 30px;
+ }
+ .logo{
+  
+     position: relative;
+     right: 30px;
+     bottom: -30px;
+ }
+ a{
+     color:var(--color1) ;
+     font-weight: bold;
+     font-size: 30px;
+     position: relative;
+     top: -6px;
+     left: 30px;
+     text-decoration: none;
+ }
+ span{
+    color: var(--color3);
+    font-weight: bold;
+    font-size: 30px;
+
+ }
+ 
+ .menu li{
+     display: inline-block;
+     padding: 10px;
+     position: relative;
+     left: 30px;
+     list-style: none;
+     font-weight: bold;
+     font-size: 12px;
+     cursor: pointer;
+ 
+ }
+
+ 
+ .menu li a{
+     text-decoration: none;
+     color: var(--color1);
+     font-weight: bold;
+     font-size: 14px;
+ }
+
+/* fin deuxieme section en blanc */
+
+/* fin header */
+
+
+/* debut main */
+
+.image{
+    width: 100%;
+    height: 75vh;
+}
+P.text-blue{
+    color: var(--color1);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    bottom: 470px;
+    left: 200px;
+}
+span.tm{
+    color: var(--color1);
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 9px;
+    font-family: 'Courier New';
+}
+.text-milieu{
+    color: var(--color1);
+    font-size: 10x;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+    font-family: cursive;
+}
+.text-bg-jaune{
+    color: var(--color1);
+    font-size: 10x;
+    position: relative;
+    bottom: 435px;
+    left: 200px;
+    font-weight: bold;
+    background-color: var(--color5);
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -90px;
+}
+.paragraphe{
+    position: relative;
+    left: 100px;
+}
+.paragraphe .p1{
+    color: var(--color1);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.paragraphe .p2{
+    color: var(--color4);
+    font-size: 12px;
+    font-weight: lighter;
+    position: relative;
+    top: 15px;
+
+}
+
+
+
+
+
+/* fin main */
