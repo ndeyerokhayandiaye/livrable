@@ -185,18 +185,33 @@ p{
 
 
 /* debut main */
+.section1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 
-.image{
-    width: 100%;
-    height: 75vh;
 }
-P.text-blue{
+.gauche{
+    position: relative;
+    left: 10px;
+    background-color: #85c3e9;
+    width: 852px;
+    height: 42vh;
+}
+.image{
+    width: 150%;
+    height: 42vh;
+    position: relative;
+    left: -150px;
+}
+.text-blue{
     color: var(--color1);
     font-weight: bold;
     font-size: 30px;
     position: relative;
-    bottom: 400px;
+    bottom: 0px;
     left: 200px;
+    /* border: 1px solid; */
 }
 span.tm{
     color: var(--color1);
@@ -210,7 +225,7 @@ span.tm{
     color: var(--color1);
     font-size: 10x;
     position: relative;
-    bottom: 380px;
+    bottom: -25px;
     left: 200px;
     font-family: cursive;
 }
@@ -218,14 +233,13 @@ span.tm{
     color: var(--color1);
     font-size: 10x;
     position: relative;
-    bottom: 360px;
+    bottom: -40px;
     left: 200px;
     font-weight: bold;
     background-color: var(--color5);
     width: 220px;
     padding: 15px;
     text-align: center;
-    border-radius: 15px;
     cursor: pointer;
 }
 
@@ -234,7 +248,7 @@ span.tm{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -90px;
+    top: 100px;
 }
 .paragraphe{
     position: relative;
